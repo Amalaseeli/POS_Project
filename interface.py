@@ -47,7 +47,7 @@ root.grid_rowconfigure(0, weight=1)
 root.grid_columnconfigure(0, weight=1)
 
 
-#icon_image = PhotoImage(file="VBR_logo.PNG")
+icon_image = PhotoImage(file="VBR_logo.PNG")
 def center_window(width = 550, height = 550):
     #get screen width and height
     width = int(width)
@@ -64,14 +64,14 @@ def center_window(width = 550, height = 550):
 # Initialize window size
 center_window(550, 520)
 #root.iconbitmap('visual_business_retail_limited_logo.ico')
-#img = Image.open('VBR_logo.png')
+img = Image.open('VBR_logo.png')
 
 # Resize the image (optional, adjust size as needed)
-#img = img.resize((32, 32))  # Resize to 32x32 pixels
+img = img.resize((32, 32))  # Resize to 32x32 pixels
 
 # Convert it to a Tkinter-compatible image
-#icon = ImageTk.PhotoImage(img)
-#root.iconphoto(True, icon)
+icon = ImageTk.PhotoImage(img)
+root.iconphoto(True, icon)
 root.configure(bg='#FBFCEA')
 
 main_frame = tk.Frame(root, padx = 10, pady = 10, bg='#FBFCEA', width=550, height=500, highlightbackground="#eff299", highlightthickness=2)
