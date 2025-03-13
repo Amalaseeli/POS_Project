@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Unknown', 'coke-bottle', 'coke-can', 'lemon puff', 'pepsi-bottle', 'pepsi-can']
+
+roboflow:
+  workspace: amalacomputervision
+  project: object-detection-yolov8-behtc
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/amalacomputervision/object-detection-yolov8-behtc/dataset/6

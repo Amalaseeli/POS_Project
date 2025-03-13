@@ -1,0 +1,5 @@
+__pycache__/
+latest.pt
+training_results
+log.txt
+debug_log.txt

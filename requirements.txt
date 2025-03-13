@@ -1,0 +1,18 @@
+OpenCv-python
+numpy 
+ultralytics
+torch
+scipy
+requests
+matplotlib
+pyyaml
+cvzone
+pillow
+pyzbar
+flask
+tk
+pyinstaller
+
+#pyinstaller --onefile --noconsole --add-data "latest.pt;." --add-data "VBR_logo.png;." --add-data "object_tracking.py;." --add-data "pipeline.py;." --add-data "package-installation.py;." interface.py
+
+#pyinstaller --onefile --noconsole --add-data "latest.pt;." --add-data "VBR_logo.png;." --add-data "interface.py;." --add-data "pipeline.py;." --add-data "package-installation.py;." object_tracking.py
