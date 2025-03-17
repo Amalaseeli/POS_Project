@@ -19,10 +19,10 @@ import timeit
 # -----------------------------
 import sys, os
 
-os.chdir(sys._MEIPASS)
-# Configure logging
-logging.basicConfig(filename="debug_log.txt", level=logging.DEBUG, 
-                    format="%(asctime)s - %(levelname)s - %(message)s")
+# os.chdir(sys._MEIPASS)
+# # Configure logging
+# logging.basicConfig(filename="debug_log.txt", level=logging.DEBUG, 
+#                     format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Root Window Configuration
 root = tk.Tk()
